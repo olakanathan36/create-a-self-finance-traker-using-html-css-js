@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    background-imagec-c: ;
+}
+.container1{
+    background-color: blue;
+}
+.container2{
+    background-color: bisque;
+}
+.container3{
+    background-color: rgb(156, 201, 219);
+}
+.row form{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;   
+}
+h1{
+    text-align: center;
+}
+.transaction{
+    margin-left: 35%;
+    width: 100px;
+    height: 60px;
+}
+.input-data{
+    width: 100%;
+    border: 1px solid;
+    text-align: center;
+    border-collapse: collapse;
+
+}
+.input-data td{
+    border: 1px solid;
+}
+.main{
+    margin:10% 30%;
+    border: 1px solid;
+}
+.transaction{
+    height: 40px;
+    width: 140px;
+    background-color: blue;
+    color: aliceblue;
+    font-weight: 500;
+
+}
+@media only screen and (max-width:600px) {
+    .main{
+        width: 10%;
+    }
+}
